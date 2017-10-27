@@ -1,0 +1,21 @@
+    <%@ page language="java" contentType="text/html; charset=ISO-8859-1"  
+        pageEncoding="ISO-8859-1"%>  
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">  
+    <html>  
+    <head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">  
+    <title>Insert title here</title>  
+    <script type="text/javascript">  
+    function enviaForm(){  
+        window.open('teste.html','Popup','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=yes, width=650, height=380');  
+        document.formEnvio.submit();  
+    }  
+    </script>  
+    </head>  
+    <body>  
+    <form name="formEnvio" action="popteste.jsp" target="Popup">  
+    <input type="hidden" name="arg" value="value">  
+    </form>  
+    <input type="button" onClick="javascript:enviaForm();">  
+    </body>  
+    </html>  

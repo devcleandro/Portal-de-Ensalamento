@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+a {
+	text-decoration: underline;
+	color: #5B874B;
+}
+
+#tabela td, #tabela table{
+	border: 1pt solid;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	color: #4D4D4D;
+	font-size: 11.5pt;
+	line-height: 2em;
+}
+
+#corpo {
+	padding: 80px 0 0 0;
+	background: #EDE8DE;
+	box-shadow: inset 0px 0px 130px 0px rgba(70,48,25,0.7);
+}
+
+body,input {
+	font-family: "Open Sans", sans-serif;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 30px 30px 0;
+	border-radius: 6px;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+	border-radius: 6px;
+}
+
+ul {
+	list-style: none;
+}
+
+.caixa{
+	margin: 0 0 35px 0;
+	overflow: hidden;
+}
+
+ul.lista li {
+	border-top: solid 1px #CFCFCF;
+	padding: 10px 0 10px 0;
+}
+
+
+#conteudo {
+	padding: 0;
+	width: 750px;
+	margin: 0 0 0 350px;
+}
+
+#rodape{
+	text-align: center;
+	padding: 50px 0 130px 0;
+	color: #938D82;
+	text-shadow: 1px 1px 0px #ffffff;
+}
+
+#rodape a {
+	color: #938D82;
+}
+
+#cabecalho {
+	position: relative;
+	padding: 40px;
+	height: 70px;
+	background: #73B05E;
+	color: #FFF;
+	box-shadow: inset 0px -10px 50px 0px #53903E;
+	overflow: hidden;
+}
+
+#logo {
+	height: 147px;
+	line-height: 147px;
+	left: 40px;
+	bottom: 0;
+	position: absolute;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#logo a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#logo h1 {
+	font-family: Abel, sans-serif;
+	font-size: 3.5em;
+}
+
+#info{
+	line-height: 170px;
+	text-align: right;
+}
+
+#info a{
+	text-decoration: none;
+}
+
+#menu {
+	padding: 0 40px 0 40px;
+	font-family: Abel, sans-serif;
+	line-height: 60px;
+	margin: 0;
+	background: #5B874B;
+	height: 60px;
+	width: 1100px;
+	box-shadow: inset 0px -3px 20px 0px #466D37;
+	border-bottom: solid 1px #93D07E;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	text-align: center;
+}
+
+#menu a {
+	font-size: 1.25em;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0 20px 0 20px;
+	display: inline;
+}
+
+#pagina {
+	margin: 0;
+	width: 1100px;
+	padding: 70px 40px 0 40px;
+	position: relative;
+	background: #FFF;
+	box-shadow: inset 0px 0px 3px 0px #ffffff, inset 0px 0px 250px 0px #d8d8d8, 0px 10px 20px 0px #D6CCBA;
+	text-shadow: 1px 1px 0px #ffffff;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#col1 {
+	overflow: hidden;
+	width: 355px;
+	float: left;
+}
+
+#col2 {
+	width: 355px;
+	margin: 0 0 0 390px;
+	overflow: hidden;
+}
+
+#lateral {
+	float: left;
+	padding: 0;
+	width: 315px;
+}
+
+#banner {
+	width: 1180px;
+	position: relative;
+	margin: 0 auto;
+}
